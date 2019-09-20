@@ -1,0 +1,10 @@
+name: 'Add to Path'
+description: 'Adds to the environment path'
+author: 'David Komer'
+inputs:
+  path:
+    description: 'the path to add'
+    default: ''
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
